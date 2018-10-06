@@ -1,0 +1,270 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,800,200);
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+.spacer{
+  display: block;
+  margin-bottom: 755px;
+}
+/*-----tweaks-----*/
+body{
+  font-family: raleway;
+  -webkit-font-smoothing:antialiased;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #20465f;
+    border: 2px solid #ffffff;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #323232;
+    border: 1px solid #A7A7A7;
+    width: 5px;
+}
+#contact {
+  position:relative;
+}
+
+#contact .card{
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 530px;
+  background: #394241;
+  box-shadow: 1px 1px 25px 1px rgba(0, 0, 0, 0.35);
+  padding: 0px;
+  margin-top: 25px;
+}
+#contact .card .wrapper {
+  position: relative;
+
+}
+#contact .card .wrapper .heading{
+  position: relative;
+  text-align: left;
+}
+
+#contact .card .wrapper .heading h3{
+  position: relative;
+  font-family: roboto condensed;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform:uppercase;
+  color: #7abe85;
+  margin: 0;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #f5f5f5;
+  display: inline-block;
+  padding-bottom: 5px;
+  letter-spacing: 2px;
+}
+#contact .card .wrapper .content {
+  position: relative;
+  margin-top: 15px;
+}
+.contact_map{
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 310px;
+  top: 10px;
+  padding: 26px;
+}
+#contact .card .wrapper .content h3{
+  position: relative;
+  font-family: roboto condensed;
+  font-size: 13px;
+  font-weight: 300;
+  text-transform:capitalize;
+  color: #fff;
+  margin-top: 8px;
+  padding-top:10px;
+}
+
+#contact .card .wrapper .content img{
+  position: relative;
+  width: 16px;
+  height: 16px;
+  top: -3px;
+  left: -3px;
+  margin-right: 10px;
+}
+
+#contact .card .wrapper{
+  position:relative;
+  top: 10px;
+}
+
+#contact .wrap .grid{
+  position: relative;
+  top:40px;
+  border-top: 1px solid #f5f5f5cc;
+}
+
+#contact .wrapper h3{
+  margin: 0;
+  position: relative;
+  font-family: roboto condensed;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform:uppercase;
+  color: #f5f5f5;
+  left: 15px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+#contact .wrap .input_wrapper{
+  padding-top: 3px;
+
+}
+
+#contact .wrap .input_wrapper .input{
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 40px;
+  font-family: raleway;
+  font-weight: 400;
+  color: #222;
+  font-size: 13px;
+  border: 0;
+  background:#2c3534;
+  text-transform: capitalize;
+}
+
+#contact .wrap .input_wrapper .input:focus{
+  outline: 0;
+}
+#contact .wrap .input_wrapper label{
+  margin: 0;
+  font-family: roboto condensed;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform:uppercase;
+  color: #f5f5f5;
+  position: relative;
+  letter-spacing: 0px;
+
+}
+#contact .wrap .buttons_pane {
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align:center;
+  margin-top: 15px;
+
+}
+
+#contact .wrap .buttons_pane .button{
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  border: 0;
+  background: #7abe85;
+  color: #fff;
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 12px;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 60px;
+}
+
+#contact .wrap.buttons_pane .button:focus{
+  outline: 0;
+}
+
+#contact .wrap{
+  position: relative;
+  width: 100%;
+}
+
+#contact .wrap .icon {
+  position: relative;
+  width: 100%;
+  margin-top:30px;
+}
+
+#contact .wrap .icon .image{
+  position: relative;
+  width: 18px;
+  height: 18px;
+  margin-left: 36px;
+}
+#contact .wrap .icon .imageshift{
+  position: relative;
+  width: 18px;
+  height: 18px;
+
+}
+#contact .wrap .text h3{
+  margin: 0;
+  padding-top: 15px;
+  font-family: roboto condensed;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform:uppercase;
+  color: #f5f5f5;
+  position: relative;
+  letter-spacing: 1px;
+}
+#contact .wrap .grid .head{
+  margin: 0;
+  margin-top: 20px;
+  font-family: roboto condensed;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform:uppercase;
+  color: #f5f5f5;
+  position: relative;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+#contact .wrap .text p{
+  font-family: raleway;
+  font-weight: 400;
+  color: #6d6d6d;
+  font-size: 13px;
+  margin: 0;
+  padding-top: 15px;
+  text-transform: capitalize;
+}
+#contact .card .location{
+  position: relative;
+  width: 100%;
+  min-height: 60px;
+  background: #7abe85;
+}
+ .location .locationb{
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.location .locationb:hover{
+  background:#4c8455;
+}
+.locationb h3{
+  position: relative;
+  font-family: roboto condensed;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f5f5f5;
+
+}
